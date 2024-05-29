@@ -23,5 +23,5 @@ CREATE TABLE IF NOT EXISTS tasks (
 
 mysql -u root -p
 
-CREATE USER IF NOT EXISTS 'kalejoo'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON tasktracker.* TO 'kalejoo'@'localhost';
+CREATE USER IF NOT EXISTS 'username'@'hostname' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON tasktracker.* TO 'userrname'@'hostname';
